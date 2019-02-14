@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.widget{
+	font-size: 16px;
+	background: #184b1b;
+    color: white;
+    font-family: Arial, sans-serif;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.location{
+    padding: 10px;
+}
+.weather{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.temp {
+    text-align: center;
+}
+.wind {
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+}
+.direction {
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+
+}
